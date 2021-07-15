@@ -1,0 +1,21 @@
+{
+  "name": "wdio-typescript-scaffold",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test:mocha:chromedriver": "cd ./packages/mocha && yarn test:chromedriver",
+    "test:mocha:devtools": "cd ./packages/mocha && yarn test:devtools",
+    "test:mocha:puppeteer": "cd ./packages/mocha && yarn test:puppeteer",
+    "test:jasmine:chromedriver": "cd ./packages/jasmine && yarn test:chromedriver",
+    "test:jasmine:devtools": "cd ./packages/jasmine && yarn test:devtools",
+    "test:jasmine:puppeteer": "cd ./packages/jasmine && yarn test:puppeteer",
+    "test:cucumber:chromedriver": "cd ./packages/cucumber && yarn test:chromedriver",
+    "test:cucumber:devtools": "cd ./packages/cucumber && yarn test:devtools",
+    "test:cucumber:puppeteer": "cd ./packages/cucumber && yarn test:puppeteer",
+    "install:all": "cd ./packages/mocha && yarn install && cd ./packages/jasmine && yarn install && cd ./packages/cucumber && yarn install",
+    "install:mocha": "cd ./packages/mocha && yarn install",
+    "install:jasmine": "cd ./packages/jasmine && yarn install",
+    "install:cucumber": "cd ./packages/cucumber && yarn install"
+  }
+}
